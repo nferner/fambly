@@ -1,13 +1,16 @@
 import React from 'react'
+import NavBarView from './navigation/navBarView.jsx'
+import CalResView from './calRes/calResView.jsx'
 
 class App extends React.Component {
-  constructor (props) {
-    super(props)
+  constructor () {
+    super()
   }
   render () {
     return (
       <div class='appWrap'>
-        <p class='appP'>This Application is connected</p>
+        <NavBarView />
+        <CalResView />
       </div>
     )
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBarView from './navigation/navBarView.jsx'
 import CalResView from './calRes/calResView.jsx'
+import FooterView from './footer/footerView.jsx'
 
 class App extends React.Component {
   constructor () {
@@ -11,6 +12,7 @@ class App extends React.Component {
       <div class='appWrap'>
         <NavBarView />
         <CalResView />
+        <FooterView />
       </div>
     )
   }

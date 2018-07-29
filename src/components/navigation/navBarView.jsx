@@ -1,6 +1,4 @@
 import React from 'react'
-import HomeNav from './homeNav.jsx'
-import CalResNav from './calResNav.jsx'
 
 class NavBarView extends React.Component {
   constructor () {
@@ -9,9 +7,36 @@ class NavBarView extends React.Component {
   render () {
     return (
       <div class='navBarViewWrap'>
-        <p class='placeHolder'>This is where a NavBar will go.</p>
-        <HomeNav />
-        <CalResNav />
+        <div class='navBarDiv'>
+          <div class='navDivItem'>
+            <a href='#home'>
+              <span>
+                <h3 class='nav-header'>Home</h3>
+              </span>
+            </a>
+          </div>
+          <div class='navDivItem'>
+            <a href='#calendar'>
+              <span>
+                <h3 class='nav-header'>Calendar</h3>
+              </span>
+            </a>
+          </div>
+          <div class='navDivItem'>
+            <a href='#info'>
+              <span>
+                <h3 class='nav-header'>Info</h3>
+              </span>
+            </a>
+          </div>
+          <div class='navDivItem'>
+            <a href='#fambly'>
+              <span>
+                <h3 class='nav-header'>Fambly</h3>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     )
   }

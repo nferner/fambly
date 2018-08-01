@@ -17,12 +17,7 @@ CREATE TABLE address (
   streetTwo VARCHAR(30),
   city VARCHAR(30),
   state VARCHAR(10),
-  zip INTEGER,
+  zip VARCHAR(10),
   country VARCHAR(10),
   phoneHome VARCHAR(25)
-);
-
-CREATE TABLE family (
-  familyId INTEGER,
-  addressId INTEGER
 );

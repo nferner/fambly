@@ -64,7 +64,6 @@ body {
 
 .calResViewWrap{
   width: 100vw;
-  display: flex;
   opacity: 100;
   background-color: black;
 }
@@ -76,8 +75,8 @@ body {
 }
 
 .googleCal{
-  height: 75vh;
-  width: 60vw;
+  height: 60vh;
+  width: 75vw;
   border-width: 0;
   frameborder: 0;
   margin-left: 0;
@@ -85,17 +84,18 @@ body {
 }
 
 .resViewWrap{
-  height: 75vh;
-  width: 15vw;
+  height: 10vh;
+  width: 50vw;
+  display: flex;
   background-color: #52647f;
   font-size: .75rem;
+  margin-left: 12.5vw;
 }
 
-.reserveDiv {
-  margin-top: 1rem;
-  margin-left: .25rem;
-  margin-right: .25rem;
+.resForm {
+   margin-left: 12.5vw;
 }
+
 
 .infoViewWrap {
   columns: 3;

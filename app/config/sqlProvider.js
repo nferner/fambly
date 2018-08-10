@@ -16,6 +16,12 @@ const sqlProvider = {
   },
   movies: {
     allMovies: sql('./sql/entertainment/movies/allMovies.sql')
+  },
+  member: {
+    allMembers: sql('./sql/family/member/allMembers.sql')
+  },
+  address: {
+    allAddresses: sql('./sql/family/address/allAddresses.sql')
   }
 }
 
